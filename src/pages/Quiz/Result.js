@@ -15,7 +15,7 @@ export default function Result() {
   return (
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-4 quiz-container max-vh-100 ">
+        <div className="col-12 col-md-6 col-lg-4 quiz-container max-vh-100 ">
           <div className="text-center">
             <h3>
               You Scored

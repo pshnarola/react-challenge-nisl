@@ -18,7 +18,7 @@ export default function Container() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-4 quiz-container vh-100 m-auto">
+        <div className="col-12 col-md-6 col-lg-4 quiz-container vh-100 m-auto">
           <Question
             currentQuestion={currentQuestion}
             changeCurrentAnswer={changeCurrentAnswer}
